@@ -1,0 +1,29 @@
+kind: pipeline
+type: docker
+name: greeting
+
+steps:
+- name: step1
+  image: alpine
+  commands:
+  - echo msg1
+
+- name: step2
+  image: alpine
+  commands:
+  - echo msg2
+
+- name: step3
+  image: alpine
+  commands:
+  - echo msg3
+
+- name: step4
+  image: alpine
+  commands:
+  - echo msg4
+
+- name: step5
+  image: alpine
+  commands:
+  - echo msg5
